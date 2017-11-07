@@ -51,13 +51,15 @@
 				</span>
 				<header class="major">
 					<h1>
-						< div > ersity</h1>
+						< div> ersity</h1>
 				</header>
 				<div class="content">
 					<p>Imagine working at a company where inclusion is a core value of the business.</p>
 				</div>
 			</div>
 		</section>
+
+    <li><a href="#" id="big-btn" class="button big">Big</a></li>
 
 
 		<!-- Main -->
@@ -68,10 +70,13 @@
 					<header class="major">
 						<h2>Mission and Vision</h2>
 					</header>
-					<p>We are building a platform that connects you to diverse thought leaders in the tech world.  A place where you can discover companies that prioritize inclusive environments.  Places where you can grow personally and professionally in a safe environment.  </p>
+					<p>We are building a platform that connects you to diverse thought leaders in the tech world. A place where you can discover
+						companies that prioritize inclusive environments. Places where you can grow personally and professionally in a safe
+						environment. </p>
 					<p>
-							Sign up to receive alerts for when we publish blog posts from latest thought leaders in the diversity and inclusion tech world, and to receive an exclusive invite to the beta launch of the platform. 
-							 </p>
+						Sign up to receive alerts for when we publish blog posts from latest thought leaders in the diversity and inclusion tech
+						world, and to receive an exclusive invite to the beta launch of the platform.
+					</p>
 					<ul class="actions">
 						<li>
 							<a href="team.html" class="button next">Join diversity</a>
@@ -87,7 +92,7 @@
 			<section id="contact">
 				<div class="inner">
 					<section>
-						<form method="post" action="#">
+						<form method="POST" action="index.html">
 							<div class="field">
 								<label for="name">Name</label>
 								<input type="text" name="name" id="name" />
@@ -103,7 +108,7 @@
 
 							<ul class="actions">
 								<li>
-									<input type="submit" value="Submit" class="special" />
+									<input id="submit-btn" type="submit" value="Submit" class="special" onClick=submitForm() />
 								</li>
 								<li>
 									<input type="reset" value="Clear" />
@@ -143,30 +148,30 @@
 
 			<!-- One -->
 			<section id="one" class="tiles">
-					<article>
-						<span class="image">
-							<img src="images/pic05.jpg" alt="" />
-						</span>
-						<header class="major">
-							<h3>
-								<a href="landing.html" class="link">Consequat</a>
-							</h3>
-							<p>Ipsum dolor sit amet</p>
-						</header>
-					</article>
-					<article>
-						<span class="image">
-							<img src="images/pic06.jpg" alt="" />
-						</span>
-						<header class="major">
-							<h3>
-								<a href="landing.html" class="link">Etiam</a>
-							</h3>
-							<p>Feugiat amet tempus</p>
-						</header>
-					</article>
-				</section>
-	
+				<article>
+					<span class="image">
+						<img src="images/pic05.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3>
+							<a href="landing.html" class="link">Consequat</a>
+						</h3>
+						<p>Ipsum dolor sit amet</p>
+					</header>
+				</article>
+				<article>
+					<span class="image">
+						<img src="images/pic06.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3>
+							<a href="landing.html" class="link">Etiam</a>
+						</h3>
+						<p>Feugiat amet tempus</p>
+					</header>
+				</article>
+			</section>
+
 
 
 			<!-- Footer -->
@@ -212,6 +217,7 @@
 		</div>
 
 		<!-- Scripts -->
+
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -219,7 +225,7 @@
 		<script src="assets/js/util.js"></script>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script src="assets/js/main.js"></script>
-
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
